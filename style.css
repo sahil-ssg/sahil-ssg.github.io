@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    /* background-color: black; */
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.title-display{
+    display: flex;
+    justify-content: space-between;
+}
+
+.display{
+    width: 100%;
+    text-align: right;
+    padding: 5px;
+    border: none;
+    margin-bottom: 10px;
+
+}
+
+.upper-symbols{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button {
+    width: 25%;
+    /* background-color: #ccc; */
+    float: left;
+    box-sizing: border-box;
+    cursor: pointer;
+}

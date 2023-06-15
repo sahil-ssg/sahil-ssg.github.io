@@ -1,1 +1,43 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title-display">
+            <div>Calc</div>
+            <div>Theme</div>
+        </div>
+        <input type="text" value="0" class="display" id="display" readonly>
+        <div class="symbols">
+            <div class="upper-symbols">
+                <div class="button" onclick="appendValue('7')">7</div>
+                <div class="button" onclick="appendValue('8')">8</div>
+                <div class="button" onclick="appendValue('9')">9</div>
+                <div class="button" onclick="clearValue()">Del</div>
+                <div class="button" onclick="appendValue('4')">4</div>
+                <div class="button" onclick="appendValue('5')">5</div>
+                <div class="button" onclick="appendValue('6')">6</div>
+                <div class="button" onclick="appendValue('/')">/</div>
+                <div class="button" onclick="appendValue('1')">1</div>
+                <div class="button" onclick="appendValue('2')">2</div>
+                <div class="button" onclick="appendValue('3')">3</div>
+                <div class="button" onclick="appendValue('*')">*</div>
+                <div class="button" onclick="appendValue('0')">0</div>
+                <div class="button" onclick="appendValue('-')">-</div>
+                <div class="button" onclick="appendValue('+')">+</div>
+                <div class="button" onclick="reset()">Reset</div>
+                <div class="button" onclick="calculate()">=</div>
+            </div>
+            <div class="lower-symbols">
+
+            </div>
+        </div>
+    </div>
+    <script src="./javascript.js"></script>
+</body>
+</html>
